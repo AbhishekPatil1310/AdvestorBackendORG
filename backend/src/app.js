@@ -29,7 +29,8 @@ function buildApp() {
     'https://advestor-frontend.vercel.app',
     'https://advestor-frontend-org.vercel.app',
     'https://advestor-frontend-org-git-main-abhisheks-projects-680a2fd9.vercel.app',
-    'https://advestor-frontend-ib0tehdij-abhisheks-projects-680a2fd9.vercel.app'
+    'https://advestor-frontend-ib0tehdij-abhisheks-projects-680a2fd9.vercel.app',
+    'https://www.advestors.org'
   ].filter(Boolean); // remove null/undefined
 
   // Register fastify-cors
@@ -94,3 +95,4 @@ function buildApp() {
 
 
 module.exports = buildApp;
+
